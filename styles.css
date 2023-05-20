@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 33);
+    color: white;
+    overflow-x: hidden;
+}
+.buttons-navbar{
+    margin-left: auto;
+}
+.navbar{
+    background-color: rgb(18, 18, 62) !important;
+    padding: 10px 60px !important; 
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 2.0rem !important;
+}
+.nav-link{
+    color: white !important;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+.nav-link:hover{
+    font-size: 1.05rem;
+}
+.row{
+    /* margin: 40px 10%; */
+    margin-top: 60px;
+}
+.col1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+}
+.col2{
+    text-align: center;
+    margin-top: 70px;
+}
+#element{
+    color: blueviolet;
+}
+.image-developer{
+    height: 25rem;
+}
+.horizontal-line{
+    border: 0px;
+    height: 1px;
+    /* color: blueviolet; */
+    margin: 5%;
+    margin-bottom: 10px;
+}
+.what-i-have-done-so-far{
+    color: gray;
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
+.heading{
+    margin-left: 10%;
+    font-size: 1.9rem;
+    margin-top: 10px;
+}
+.education-and-work-experience{
+    margin: 100px 10% 0px 10%;
+    height: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.element-edu-wrk-exp{
+    height: 75px;
+    width: 2px;
+    background-color: white;
+}
+.school-image{
+    position: relative;
+    height: 50px;
+    bottom: 75px;
+    right: 18px;
+}
+.education-and-work-experience-title{
+    width: 200px;
+    position: relative;
+    top: 45px;
+    right: 10px;
+}
+.education-and-work-experience-about{
+    width: 200px;
+    position: relative;
+    top: 55px;
+    right: 10px;
+    color: gray;
+    font-size: 0.9rem;
+}
+.horizontal-line-second{
+    border: 0px;
+    height: 1px;
+    /* color: blueviolet; */
+    margin: 5%;
+    margin-bottom: 10px;
+    margin-top: 300px;
+}
+.skills{
+    height: 5px;
+    background-color: white;
+    margin: 100px 10% 0px 10%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+.individual-skill{
+    height: 75px;
+    width: 5px;
+    background-color: white;
+}
+.skill-title{
+    position: relative;
+    
+    font-size: 1.5rem;
+    right: 80px;
+    bottom: 65px;
+}
+.skill-content{
+    width: 300px;
+    position: relative;
+    
+    color: gray;
+    font-size: 1.2rem;
+    right: 15px;
+    top: 55px;
+}
+#footer{
+    text-align: center;
+    padding: 2% 15%;
+    margin-top: 300px;
+    
+}
+.footer-icon{
+    margin: 6px;
+}
+.skills {
+    opacity: 0;
+    transition: opacity 2.5s ease-in;
+  }
+  
+  .skills.animate {
+    opacity: 1;
+  }
+  
+/* CSS Animation */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply animation to the elements */
+  .education-and-work-experience .element-edu-wrk-exp {
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in-out forwards;
+  }
+  
+  /* Delay each element's animation */
+  .education-and-work-experience .element-edu-wrk-exp:nth-child(1) {
+    animation-delay: 1.0s;
+  }
+  
+  .education-and-work-experience .element-edu-wrk-exp:nth-child(2) {
+    animation-delay: 2.0s;
+  }
+  
+  .education-and-work-experience .element-edu-wrk-exp:nth-child(3) {
+    animation-delay: 3.0s;
+  }
+  
+  .education-and-work-experience .element-edu-wrk-exp:nth-child(4) {
+    animation-delay: 4.0s;
+  }
+
